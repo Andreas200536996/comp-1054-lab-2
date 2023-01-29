@@ -1,0 +1,166 @@
+
+/* Typography */ 
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px; 
+}
+
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+
+#features > div {
+    flex: 1; 
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+
+
+/* table style base */
+
+#playlist table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid aliceblue;
+    font-size: 14px;
+}
+
+#features  table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid aliceblue;
+    font-size: 14px;
+}
+
+
+
+
+/* table 1 columns widths */
+
+thead th:nth-child(1){
+    width: 33%;
+}
+
+thead th:nth-child(2){
+    width: 33%;
+}
+
+thead th:nth-child(3){
+    width: 33%;
+}
+
+/* table 1 title placement */
+
+thead tr:nth-child(1),
+thead tr:nth-child(2),
+thead tr:nth-child(3){
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/* zebra striping */
+
+#playlist tbody > tr:nth-of-type(odd){
+    background-color:  #f2f1f1;
+}
+
+/* table 2 columns widths */
+
+#features th:nth-child(1) {
+    width: 70%;
+}
+
+#features th:nth-child(2) {
+    width: 30%;
+}
+
+
+
+/* nav styling */
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    outline: none;
+    background-color: aliceblue;
+    color: #333;
+    font-weight: 700;
+    padding: 15px;
+}
+
+nav a:link {
+    background-color: aliceblue;
+    color: #333;
+}
+
+nav a:visited,
+nav a:focus {
+    background-color: lightgreen;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: pink;
+    color: #333;
+}
+
+nav a:active {
+    background-color: bisque;
+    color: #333;
+}
+
+/* link styling */
+
+.flex a:hover {
+    background-color: aliceblue;
+    color: red;
+}
+
+
+/* ol and ul styling */
+
+.flex ul {
+    list-style-type: decimal;
+}
+
+
+/* extra header styling */
+
