@@ -164,3 +164,13 @@ nav a:active {
 
 /* extra header styling */
 
+.wrapper header {
+    background-image: url(../img/paul-earle-wVjd0eWNqI8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+.wrapper {
+    background-color: lavenderblush;
+}
