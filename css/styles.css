@@ -105,6 +105,12 @@ thead tr:nth-child(3){
 }
 
 
+/* table 2 styling */
+
+#features tbody {
+    background: aliceblue;
+}
+
 
 /* nav styling */
 
@@ -159,6 +165,14 @@ nav a:active {
 
 .flex ul {
     list-style-type: decimal;
+
+}
+
+.flex ul, ol {
+    background-color: aliceblue;
+    border-collapse: collapse;
+    border: 2px solid lightgrey;
+
 }
 
 
