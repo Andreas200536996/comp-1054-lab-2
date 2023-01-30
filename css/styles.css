@@ -47,7 +47,7 @@ main section {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid aliceblue;
+    border: 2px solid lightgrey;
     font-size: 14px;
 }
 
@@ -55,7 +55,7 @@ main section {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid aliceblue;
+    border: 2px solid lightgrey;
     font-size: 14px;
 }
 
@@ -91,7 +91,7 @@ thead tr:nth-child(3){
 /* zebra striping */
 
 #playlist tbody > tr:nth-of-type(odd){
-    background-color:  #f2f1f1;
+    background-color:  lightgrey;
 }
 
 /* table 2 columns widths */
@@ -172,5 +172,5 @@ nav a:active {
 }
 
 .wrapper {
-    background-color: lavenderblush;
+    background-color: beige;
 }
