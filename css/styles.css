@@ -188,3 +188,9 @@ nav a:active {
 .wrapper {
     background-color: beige;
 }
+
+/* footer styling */
+
+footer {
+    text-align: center;
+}
